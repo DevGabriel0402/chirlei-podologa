@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Gama Fotografia traz à vida a beleza de cada momento através de sua lente. Com especialização em retratos e paisagens, suas imagens capturam a essência das emoções, criando memórias visuais inesquecíveis.">
+    <link rel="shortcut icon" href="./src/perfil-chirlei.webp" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./src/perfil-chirlei.webp">
+    <link rel="manifest" href="./src/perfil-chirlei.webp">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="index.js" defer></script>
+    <title>Chirlei Santos - Podóloga</title>
+</head>
+
+<body>
+
+    <div class="loading" id="loading">
+        <div class="bar-loading"></div>
+    </div>
+    <!-- Form -->
+    <div class="modal" id="modal">
+        <form id="formulario" class="">
+            <div id="btn-fechar">&times;</div>
+            <h2>Preencha o formulário</h2>
+            <input type="text" id="inputName" placeholder="Informe seu nome..." required>
+            <select id="select" required>
+                <option value="nenhum" selected>Procedimento</option>
+                <option value="Corte e lixamento de unha">Corte e Lixamento</option>
+                <option value="Remoção de calosidades e calos">Remoção de Calos</option>
+                <option value="Limpeza das pregas ungueais">Limpeza das Pregas Ungueais</option>
+                <option value="Higienização dos pés">Higienização dos pés</option>
+                <option value="Hidratação dos pés">Hidratação dos pés</option>
+                <option value="Aplicação de órtese para corrigir unhas">Aplicação de órtese para corrigir unhas</option>
+                <option value="Aplicação de teste de sensibilidade">Aplicação de teste de sensibilidade</option>
+            </select>
+            <textarea rows="6" id="inputText" placeholder="Envie uma mensagem (opcional)..."></textarea>
+            <button id="submit">Marcar Horário</button>
+        </form>
+    </div>
+
+    <!-- Contrate Ja -->
+    <div class="card-contrate hidden" id="card-contrate">
+        <div class="right">
+            <img src="./src/perfil-chirlei.webp" alt="foto de perfil">
+            <p>Agende um horário!<br> <span>Seus pés merecem o melhor! Marque sua consulta e sinta a diferença.</span></p>
+        </div>
+
+
+        <button id="btn-contato">Agendar</button>
+    </div>
+    <!-- Container Principal -->
+    <div class="container hidden" id="container">
+        <!-- Perfil -->
+        <div class="perfil">
+            <img width="100px" src="./src/perfil-chirlei.webp" alt="Foto de Perfil">
+            <!-- Informações do Perfil -->
+            <div class="perfil-info">
+                <h1 class="name-title">Chirlei Santos</h1>
+                <p class="description">Seus pés merecem atenção: caminhe com conforto e segurança!.</p>
+            </div>
+        </div>
+        <!-- Faixa -->
+        <div class="faixa">
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+            <p>&nbsp;Podóloga ●</p>
+        </div>
+        <!-- Cards Link -->
+        <div class="card-container">
+            <!-- Cards -->
+            <a class="card" href="#">
+                Veja alguns procedimentos!
+            </a>
+        </div>
+        <!-- Carrossel -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img id="image" src="./src/01.jpeg" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/02.jpeg" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/03.jpeg" alt="image-slide">
+                </div>
+                <div class="swiper-slide"><img id="image" src="./src/04.jpeg" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/05.jpeg" alt="image-slide">
+                </div>
+                <div class="swiper-slide"><img id="image" src="./src/06.jpeg" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/07.jpeg" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/08.jpeg" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/09.jpeg" alt="image-slide">
+                </div>
+                <div class="swiper-slide"><img id="image" src="./src/10.jpeg" alt="image-slide">
+                </div>
+                <div class="swiper-slide"><img id="image" src="./src/11.jpeg" alt="image-slide">
+                </div>
+                <div class="swiper-slide"><img id="image" src="./src/12.jpeg" alt="image-slide">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+
+    <footer class="hidden" id="footer"> Chirlei Santos - Podóloga &copy; 2020. Todos os diretios reservados.</footer>
+</body>
+
+</html>
