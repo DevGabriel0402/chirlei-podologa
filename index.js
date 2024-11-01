@@ -86,7 +86,7 @@ document.getElementById('submit').addEventListener('click', () => {
 
     const uri = encodeURIComponent(mensagem)
 
-    const contato = `31985127512`
+    const contato = '31988079457'
 
     const url = `https://wa.me/55${contato}?text=${uri}`
 
