@@ -22,7 +22,7 @@ if (innerWidth >= 400) {
         // spaceBetween: 10,
         pagination: {
             el: ".swiper-pagination",
-            clickable: true,
+            dynamicBullets: true,
         },
         navigation: {
             nextEl: ".swiper-button-next",
@@ -36,7 +36,7 @@ if (innerWidth >= 400) {
         centeredSlides: true,
         pagination: {
             el: ".swiper-pagination",
-            clickable: true,
+            dynamicBullets: true,
         },
         navigation: {
             nextEl: ".swiper-button-next",
@@ -77,12 +77,12 @@ document.getElementById('submit').addEventListener('click', () => {
 
 
     const mensagem = `
-    Olá Chirlei tudo bem? Meu nome é ${nome} e estou entrando em contato para marcar uma consulta:
+Olá Chirlei tudo bem? Meu nome é ${nome} e estou entrando em contato para marcar uma consulta:
 
-    *Procedimento:* ${tipoEvento}
-    *Observação:* ${texto}
+*Procedimento:* ${tipoEvento}
+*Observação:* ${texto}
     
-    Aguardando sua resposta.`
+Aguardando sua resposta.`
 
     const uri = encodeURIComponent(mensagem)
 
@@ -91,7 +91,7 @@ document.getElementById('submit').addEventListener('click', () => {
     const url = `https://wa.me/55${contato}?text=${uri}`
 
     if (nome === "" || tipoEvento === "nenhum") {
-        alert(`Verifique se foi informado: nome, email e tipo do evento!`)
+        alert(`Verifique se foi informado: nome e o tipo de procedimento!`)
         return
     } else {
         window.open(url, `_blank`)
