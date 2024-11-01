@@ -77,7 +77,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    background-color: #84cbfa20;
+    background-color: #65726e80;
     padding: 20px;
     width: 90%;
     max-width: 450px;
@@ -298,7 +298,7 @@ body {
     color: #fafafa;
     white-space: nowrap;
     font-size: 12px;
-    animation: animaFaixa 5s linear infinite reverse !important;
+    animation: animaFaixa 5s linear infinite !important;
     pointer-events: none;
     text-transform: uppercase;
 
