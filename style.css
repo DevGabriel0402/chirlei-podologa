@@ -22,9 +22,7 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .loading .bar-loading {
@@ -34,7 +32,7 @@ body {
     border-top: 2px solid transparent;
     border-right: 2px solid #B8D2CB;
     border-bottom: 2px solid transparent;
-    border-radius: 25px;
+    border-radius: 20px;
     animation: loadingAnimate .5s linear infinite;
 }
 
